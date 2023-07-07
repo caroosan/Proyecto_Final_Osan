@@ -1,0 +1,11 @@
+@mixin imageShadow($color, $offsetX, $offsetY, $blur) {
+    box-shadow: $offsetX $offsetY $blur $color;
+  }
+
+  .gallery-item {
+
+  
+    a {
+      @include imageShadow(#dbc9c9, -2px, -2px, 4px);
+    }
+  }

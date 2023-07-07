@@ -1,0 +1,53 @@
+@media (max-width: 425px) {
+    .container_logo {
+        flex-direction: column;
+        padding: 20px;
+        h1 { 
+        font-size: 1em;
+        }
+        button{
+        margin: 20px;
+        }
+        
+    }
+    .titulos {
+        h2 {
+        font-size: 1em;
+        }
+        h3 {
+        font-size: 0.8em;    
+        }
+    }
+
+    .container_form {
+        display: grid;
+        margin: 0 auto;
+        padding: 10px;
+        align-items: end;
+        justify-content: space-around;
+        grid-template-columns: 75%;
+        button {
+            margin: 20px;
+        
+        }
+
+        label, input, textarea {
+            width: 100%;
+                
+        }
+    }
+    footer {;
+        display: flex; 
+        flex-direction: column;
+        justify-content: space-around ;
+        margin: 0;
+        font-size: 10px;
+        
+        a{
+            margin: 5px;
+        }
+        p {
+            margin-bottom: 5px;
+        }
+    }
+}
